@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+}
+
 html, body{
     margin: 0;
 	padding: 0;
+    font-family: "Raleway", Arial, sans-serif ;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3{
+    font-family: "Lato", Arial, sans-serif;
+}
+
+h2{
+    color: #17abb3;
 }
 
 .container{
     width: 1160px;
     margin: auto;
+    background-color: #ffffff;
 }
 
 main{
@@ -18,11 +36,14 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-end; /*ceci sera adapté lors de l'ajout de la photo de profil*/
+    color: #ffffff;
+    background-color: #17abb3;
 }
 
 #left_div{
     min-width: 25%;
     padding: 0px 15px;
+    background-color: #e3e3e3;
 }
 
 #right_div{
@@ -42,5 +63,11 @@ header{
 
 footer{
     text-align: center; /*ceci sera adapté lors de l'ajout des icônes des réseaux sociaux*/
+    color: #ffffff;
+    background-color: #17abb3;
 }
 
+footer h2 {
+    color: #ffffff; /*ceci sera supprimé lors de l'ajout des icônes des réseaux sociaux*/
+    margin-top: 0;
+}
