@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+	padding: 0;
+}
+
+.container{
+    width: 1160px;
+    margin: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /*ceci sera adapté lors de l'ajout de la photo de profil*/
+}
+
+#left_div{
+    min-width: 25%;
+    padding: 0px 15px;
+}
+
+#right_div{
+    padding: 0px 15px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#right_div h3{
+    margin-bottom:0px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center; /*ceci sera adapté lors de l'ajout des icônes des réseaux sociaux*/
+}
+
