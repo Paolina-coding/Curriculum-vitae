@@ -16,7 +16,7 @@ h1, h2, h3{
     font-family: "Lato", Arial, sans-serif;
 }
 
-h2{
+main h2{
     color: #17abb3;
 }
 
@@ -26,18 +26,18 @@ h2{
     background-color: #ffffff;
 }
 
-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
 header{
     display: flex;
     flex-direction: column;
     align-items: flex-end; /*ceci sera adapté lors de l'ajout de la photo de profil*/
     color: #ffffff;
     background-color: #17abb3;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 #left_div{
@@ -56,6 +56,19 @@ header{
     align-items: baseline;
 }
 
+.language{
+    font-weight: bold;
+}
+
+.place{
+    font-style: italic;
+}
+
+#profile p{
+    text-align: justify;
+    text-indent: 10px;
+}
+
 #right_div h3{
     margin-bottom:0px;
     margin-top: 10px;
@@ -68,6 +81,5 @@ footer{
 }
 
 footer h2 {
-    color: #ffffff; /*ceci sera supprimé lors de l'ajout des icônes des réseaux sociaux*/
     margin-top: 0;
 }
