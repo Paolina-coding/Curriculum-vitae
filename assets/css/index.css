@@ -18,6 +18,8 @@ h1, h2, h3{
 
 main h2{
     color: #17abb3;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 .container{
@@ -42,12 +44,12 @@ main{
 
 #left_div{
     min-width: 25%;
-    padding: 0px 15px;
-    background-color: #e3e3e3;
+    padding: 30px;
+    background-color: #eef1f2;
 }
 
 #right_div{
-    padding: 0px 15px;
+    padding: 30px;
 }
 
 .item{
@@ -67,6 +69,7 @@ main{
 #profile p{
     text-align: justify;
     text-indent: 10px;
+    margin: 0px;
 }
 
 #right_div h3{
