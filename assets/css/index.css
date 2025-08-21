@@ -30,10 +30,23 @@ main h2{
 
 header{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end; /*ceci sera adapté lors de l'ajout de la photo de profil*/
+    justify-content: space-around;
+    align-items: center;
     color: #ffffff;
     background-color: #17abb3;
+    text-align: center;
+}
+
+#profile-picture{
+    border: medium solid #ffffff;
+    border-radius: 50%;
+    height: 150px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 main{
