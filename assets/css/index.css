@@ -78,11 +78,19 @@ main{
 }
 
 footer{
-    text-align: center; /*ceci sera adapté lors de l'ajout des icônes des réseaux sociaux*/
+    text-align: center; 
     color: #ffffff;
     background-color: #17abb3;
+    font-style: italic;
+    padding: 15px;
 }
 
-footer h2 {
-    margin-top: 0;
+footer p{
+    margin: 0px;
+}
+
+svg {
+  color: #ffffff; 
+  width: 20px;
+  height: 20px;
 }
