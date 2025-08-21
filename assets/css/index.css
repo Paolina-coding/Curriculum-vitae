@@ -30,10 +30,23 @@ main h2{
 
 header{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end; /*ceci sera adapté lors de l'ajout de la photo de profil*/
+    justify-content: space-around;
+    align-items: center;
     color: #ffffff;
     background-color: #17abb3;
+    text-align: center;
+}
+
+#profile-picture{
+    border: medium solid #ffffff;
+    border-radius: 50%;
+    height: 150px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 main{
@@ -46,6 +59,26 @@ main{
     min-width: 25%;
     padding: 30px;
     background-color: #eef1f2;
+}
+
+ul{
+    list-style-type: square;
+    padding-left: 1em; /* pour aligner les puces au h2 */
+}
+
+ul ::marker{
+    color: #17abb3;
+    font-size: 1.5em;
+}
+
+.full svg{
+    width: 15px;
+    color: #17abb3;
+}
+
+.empty svg{
+    width: 15px;
+    color: #17abb3; 
 }
 
 #right_div{
@@ -78,11 +111,19 @@ main{
 }
 
 footer{
-    text-align: center; /*ceci sera adapté lors de l'ajout des icônes des réseaux sociaux*/
+    text-align: center; 
     color: #ffffff;
     background-color: #17abb3;
+    font-style: italic;
+    padding: 15px;
 }
 
-footer h2 {
-    margin-top: 0;
+footer p{
+    margin: 0px;
+}
+
+header svg, footer svg {
+  color: #ffffff; 
+  width: 20px;
+  height: 20px;
 }
