@@ -132,3 +132,16 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+
+#right_div .item:hover{
+    background-color: #e3e3e3;
+    border-left: thick solid #17abb3;
+}
+
+header img:hover{
+    cursor: zoom-in;
+}
+
+footer svg:hover{
+    opacity: 50%;
+}
